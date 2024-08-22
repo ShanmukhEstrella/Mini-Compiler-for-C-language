@@ -1,12 +1,12 @@
 %{
     #include<bits/stdc++.h>
     using namespace std;
-	void yyerror(string);
-	int yylex(void);
-	char mytext[100];
-	char var[100];
-	int num = 0;
-	extern char* yytext;
+    void yyerror(string);
+    int yylex(void);
+    char mytext[100];
+    char var[100];
+    int num = 0;
+    extern char* yytext;
     extern int yylineno;
 %}
 
