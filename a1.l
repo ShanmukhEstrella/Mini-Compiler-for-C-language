@@ -2,9 +2,9 @@
     #include <stdlib.h>
     #include<bits/stdc++.h>
     using namespace std;
-	#include "a1.tab.h"
-	void yyerror(string);
-	extern char mytext[];
+    #include "a1.tab.h"
+    void yyerror(string);
+    extern char mytext[];
     extern int yylineno;  // Declare yylineno as an external variable
 %}
 
